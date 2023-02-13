@@ -1,0 +1,94 @@
+body{
+    background-color: #F8F8F8;
+}
+
+#form-container{
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0,0,0,.2);
+    margin: 25px auto;
+    padding: 25px;
+}
+
+#form-container h2{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#form-container a{
+    color: #222;
+    transition: .5s;
+}
+
+#form-container a:hover{
+    color: #F50057;
+}
+
+#form-container form{
+    padding-bottom: 0;
+}
+
+#form-container .form-control{
+    border:none;
+    border-bottom: 1px solid #CCC;
+    border-radius: 0;
+}
+
+
+#form-container .form-control:focus{
+    box-shadow: none;
+}
+
+#form-container .form-floating label{
+    color: #CCC;
+}
+
+#form-container .form-floating > .form-control:focus~label{
+    color: #222;
+}
+
+
+#corbotao{
+    --bs-btn-color: #F50057;
+    --bs-btn-border-color: #F50057;
+    --bs-btn-hover-bg: #F50057;
+    --bs-btn-hover-border-color: #F50057;
+    --bs-btn-active-bg: #F50057;
+    --bs-btn-active-border-color: #F50055;
+    --bs-btn-disabled-color: #F50055;
+}
+
+.row.align-items-center{
+    align-content: center;
+    height: 100%;
+    padding: 75px 0;
+}
+
+#link-container{
+    align-content: center;
+    padding-top: 50px;
+}
+
+.btn.btn-outline-primary{
+    width: auto;
+}
+
+
+@media(max-width: 768px){
+    .col-md-6.order-md-1{
+        padding-top: 50px;
+    }
+    .btn.btn-outline-primary{
+        width: 100%;
+    }
+    
+}
+
+.form-check-input:checked {
+    background-color: #F50055;
+    border-color: #F50055;
+}
+
+a{
+    text-decoration: none;
+}
